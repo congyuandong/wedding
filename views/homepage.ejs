@@ -9,9 +9,9 @@
       <section class="main">
         <div class="about-box pull-down <%= noAbout ? 'closed' : 'expand' %>" data-no-about="<%= noAbout %>" id="about-box">
           <h2>关于我们</strong></h2>
-          <p>“PM Infinity”是我们的婚礼主题，“P”代表我美丽的妻子，“M”当然就是在下啦；“Infinity”代表无限和永恒，是因为“M”和“P”相识于那一年的3.14，咦，这不刚好是数学里的“π”嘛，于是就借助“π”的无穷，寓意我们之间爱无穷。其实还有个巧合我们的求婚戒和对戒都刻有“Infinity”😊。</p>
+          <p>巴拉巴拉</p>
           <% if (account.lastCheckin && account.lastCheckin.status != 'present') { %>
-          <p>“PM Infinity”婚礼将于10月5号晚，在九江市盛世麒麟大酒店举行(可在下方参考现场地图)，我和妻子及双方家人恭候大家的光临。据说签到，送祝福可以参加婚礼现场的抽奖哦😜。</p>
+          <p>婚礼将于12月11号晚，在南通在水一方大酒店举行(可在下方参考现场地图)，我和妻子及双方家人恭候大家的光临。据说签到，送祝福可以参加婚礼现场的抽奖哦😜。</p>
           <% } else { %>
           <p style="color:red">可在底部输入框发送祝福弹幕，参与现场抽奖，据说颜值高的和祝福多的都更有机会中奖😜。</p>
           <% } %>
@@ -28,11 +28,11 @@
         <div class="gallery-box">
           <div class="gallery">
             <!--修改照片，data-width图片宽度，data-height图片高度，data-center-offset图片主题中线x位置-->
-            <div><img class="disable-tilt" src="/images/1-740.jpg" data-width="1500" data-height="1000" data-center-offset="740" /></div>
-            <div><img class="disable-tilt" data-lazy="/images/2-839.jpg" data-width="1500" data-height="1000" data-center-offset="839" /></div>
-            <div><img class="disable-tilt" data-lazy="/images/3-935.jpg" data-width="1500" data-height="1000" data-center-offset="935" /></div>
-            <div><img class="disable-tilt" data-lazy="/images/4-498.jpg" data-width="1500" data-height="1000" data-center-offset="498" /></div>
-            <div><img class="disable-tilt" data-lazy="/images/5-1043.jpg" data-width="1500" data-height="1000" data-center-offset="1043" /></div>
+            <div><img class="disable-tilt" src="http://p0iwpim2q.bkt.clouddn.com/origin/IMG_4808.JPG" data-width="1500" data-height="1000" data-center-offset="740" /></div>
+            <div><img class="disable-tilt" data-lazy="http://p0iwpim2q.bkt.clouddn.com/origin/IMG_4827.JPG" data-width="1500" data-height="1000" data-center-offset="839" /></div>
+            <div><img class="disable-tilt" data-lazy="http://p0iwpim2q.bkt.clouddn.com/origin/IMG_4885.jpg" data-width="1500" data-height="1000" data-center-offset="935" /></div>
+            <div><img class="disable-tilt" data-lazy="http://p0iwpim2q.bkt.clouddn.com/origin/IMG_4890%20%20%E9%92%B1%E5%8C%85%E7%85%A7.JPG" data-width="1500" data-height="1000" data-center-offset="498" /></div>
+            <div><img class="disable-tilt" data-lazy="http://p0iwpim2q.bkt.clouddn.com/origin/IMG_4920.JPG" data-width="1500" data-height="1000" data-center-offset="1043" /></div>
           </div>
         </div>
         <div class="wish-box <%= account.lastCheckin && account.lastCheckin.status == 'present' ? 'dock-show' : 'dock-hide' %>" id="wish-box">
