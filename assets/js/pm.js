@@ -664,7 +664,7 @@
           msg.msg +
         '</span>';
       cmt.mode = 1;
-      cmt.size = 24;
+      cmt.size = 30;
       cmt.dur = Math.floor(Math.random()*4000 + this.speed);
 
       this._cm.send(cmt);
