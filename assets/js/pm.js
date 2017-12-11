@@ -604,7 +604,7 @@
     _cm: null,
     _stopped: false,
     speed: 4000,
-    duration: 800,
+    duration: 2000,
     showName: false,
     pendingMsg: [],
     init: function($el) {
@@ -664,7 +664,7 @@
           msg.msg +
         '</span>';
       cmt.mode = 1;
-      cmt.size = 16;
+      cmt.size = 24;
       cmt.dur = Math.floor(Math.random()*4000 + this.speed);
 
       this._cm.send(cmt);
